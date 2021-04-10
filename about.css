@@ -1,0 +1,57 @@
+:root {
+  --light-blue: #A1EAFB;
+  --light-pink: #ffcef3;
+  --light-purple: #cabbe9;
+  --another-white: #fdfdfd;
+  --teal: #8ef6e4;
+  --purple: #9896f1;
+  --magenta: #d59bf6;
+  --dark-pink: #edb1f1;
+
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.card{
+  margin: 1em;
+}
+
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+
+.btn .a{
+    background-color: var(--light-blue);
+    border: none;
+    text-decoration: none!important;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.btn .a:hover{
+    animation: TransButton 5s ease infinite!important;
+    transition: 0.6s!important;
+    text-decoration: none!important;
+}
+
+@keyframes TransButton{
+    0%{
+        color: var(--teal)!important;
+    }
+    25%{
+        color:  var(--purple)!important;
+    }
+    50%{
+       color: var(--magenta)!important;
+    }
+    100%{
+        color: var(--dark-pink)!important;
+    }
+}

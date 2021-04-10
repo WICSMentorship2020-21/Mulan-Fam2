@@ -1,0 +1,8 @@
+#centerimg{
+    width: 100%;
+    text-align: center;
+}
+#centerimg img{
+    margin-top: 10em;
+    width: 50%;
+}
